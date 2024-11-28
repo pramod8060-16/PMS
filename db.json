@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "name": "punee",
+      "email": "mumbai@gmail.com",
+      "role": "Team Member",
+      "status": "Deactive",
+      "id": "d416"
+    },
+    {
+      "name": "wsd",
+      "email": "wdqw@gmail.com",
+      "role": "Manager",
+      "status": "Active",
+      "id": "abe0"
+    },
+    {
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "Admin",
+      "status": "Active",
+      "id": "e239"
+    },
+    {
+      "name": "swd",
+      "email": "d@gmail.com",
+      "role": "Manager",
+      "status": "Deactive",
+      "id": "5153"
+    },
+    {
+      "name": "pune",
+      "email": "mum@gmail.com",
+      "role": "Manager",
+      "status": "Active",
+      "id": "1b67"
+    },
+    {
+      "name": "dsv",
+      "email": "wf@gmail.com",
+      "role": "Manager",
+      "status": "Deactive",
+      "id": "5789"
+    },
+    {
+      "name": "aa",
+      "email": "aa@gmail.com",
+      "role": "Manager",
+      "status": "Deactive",
+      "id": "ada3"
+    },
+    {
+      "id": "8656",
+      "name": "aa",
+      "email": "a@gmail.com",
+      "role": "Team Member",
+      "status": "Active"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Alphaa",
+      "description": "Initial phase of the project",
+      "deadline": "2024-11-01",
+      "teamMembers": [
+        "2"
+      ],
+      "status": "active",
+      "id": "1"
+    },
+    {
+      "name": "proKD",
+      "description": "ds",
+      "deadline": "2027-11-07T18:30:00.000Z",
+      "teamMembers": [
+        "1",
+        "4",
+        "2",
+        "6"
+      ],
+      "status": "overdue",
+      "id": "4b6b"
+    },
+    {
+      "name": "alphaD",
+      "description": "dse",
+      "deadline": "2024-11-19T18:30:00.000Z",
+      "teamMembers": [
+        "4",
+        "2"
+      ],
+      "status": "overdue",
+      "id": "6a74"
+    },
+    {
+      "id": "54f5",
+      "name": "s",
+      "description": "wqd",
+      "deadline": "2024-11-18T18:30:00.000Z",
+      "teamMembers": [
+        ""
+      ],
+      "status": "overdue"
+    },
+    {
+      "name": "qwdd",
+      "description": "",
+      "deadline": "2024-11-24T18:30:00.000Z",
+      "teamMembers": [
+        "4",
+        "87",
+        "6",
+        "5"
+      ],
+      "status": "completed",
+      "id": "4d99"
+    },
+    {
+      "name": "eff",
+      "description": "wef",
+      "deadline": "2024-11-27T18:30:00.000Z",
+      "teamMembers": [
+        "5"
+      ],
+      "status": "active",
+      "id": "adba"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "qqq",
+      "description": "",
+      "deadline": "2024-11-18T18:30:00.000Z",
+      "user": "5",
+      "status": "Completed",
+      "id": "de3b"
+    },
+    {
+      "title": "xx",
+      "description": "yy",
+      "deadline": "2024-11-19T18:30:00.000Z",
+      "user": "4",
+      "status": "Pending",
+      "id": "6997"
+    },
+    {
+      "id": "7255",
+      "title": "651",
+      "description": "",
+      "deadline": "2024-11-29T18:30:00.000Z",
+      "user": "n",
+      "status": "Pending"
+    },
+    {
+      "id": "778f",
+      "title": "hbi",
+      "description": "kjb",
+      "deadline": "2024-11-21T18:30:00.000Z",
+      "user": "4",
+      "status": "In-progress"
+    },
+    {
+      "id": "e81e",
+      "title": "xx",
+      "description": "",
+      "deadline": "2024-11-29T18:30:00.000Z",
+      "user": "2",
+      "status": "Completed"
+    },
+    {
+      "id": "1523",
+      "title": "CCA",
+      "description": "",
+      "deadline": "2021-12-31T18:30:00.000Z",
+      "user": "5",
+      "status": "Pending"
+    },
+    {
+      "id": "14d6",
+      "title": "CCA",
+      "description": "",
+      "deadline": "2024-11-29T18:30:00.000Z",
+      "user": "3",
+      "status": "In-progress"
+    }
+  ]
+}
