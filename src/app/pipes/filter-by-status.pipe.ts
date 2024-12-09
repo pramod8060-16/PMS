@@ -9,5 +9,4 @@ export class FilterByStatusPipe implements PipeTransform {
     if (!status) return tasks;
     return tasks.filter(task => task.status === status);
   }
-
 }

@@ -12,7 +12,6 @@ import { UserListComponent } from './components/user-list/user-list.component';
 import { UserFormComponent } from './components/user-form/user-form.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
 import { ProjectFormComponent } from './components/project-form/project-form.component';
-import { TaskListComponent } from './components/task-list/task-list.component';
 import { TaskFormComponent } from './components/task-form/task-form.component';
 import { AuthService } from './services/auth.service';
 import { UserService } from './services/user.service';
@@ -34,7 +33,6 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 
-
 import { AuthGuard } from './guards/auth.guard';
 import { RoleGuard } from './guards/role.guard';
 
@@ -48,12 +46,11 @@ import { CommonModule } from '@angular/common';
 import { MatNativeDateModule } from '@angular/material/core';
 import { FilterByStatusPipe } from './pipes/filter-by-status.pipe';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
-import { ManagerDashboardComponent } from './components/manager-dashboard/manager-dashboard.component';
-import { TeamMemberDashboardComponent } from './components/team-member-dashboard/team-member-dashboard.component';
 import { ErrorInterceptorService } from './services/error-interceptor.service';
-import { TaskManagerComponent } from './components/task-manager/task-manager.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HighlightDeadlineDirective } from './components/Directives/highlight-deadline.directive';
+import { TaskTeamComponent } from './components/Team member/task-team/task-team.component';
+import { TaskViewComponent } from './components/Team member/task-view/task-view.component';
 
 
 
@@ -67,15 +64,13 @@ import { HighlightDeadlineDirective } from './components/Directives/highlight-de
     UserFormComponent,
     ProjectListComponent,
     ProjectFormComponent,
-    TaskListComponent,
     TaskFormComponent,
     FilterByStatusPipe,
     AdminDashboardComponent,
-    ManagerDashboardComponent,
-    TeamMemberDashboardComponent,
-    TaskManagerComponent,
     NotFoundComponent,
     HighlightDeadlineDirective,
+    TaskTeamComponent,
+    TaskViewComponent,
   ],
   imports: [
     BrowserModule,
@@ -101,17 +96,12 @@ import { HighlightDeadlineDirective } from './components/Directives/highlight-de
     MatMenuModule,
     MatRadioModule,
     MatDatepickerModule,
-
-
-    
     MatInputModule,
     MatSortModule,
     MatPaginatorModule,
     MatPaginator,
     CommonModule,
     MatNativeDateModule,
-
-    
   ],
   providers: [
     AuthService,

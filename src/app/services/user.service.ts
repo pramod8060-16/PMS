@@ -6,7 +6,7 @@ import { Observable, timeout } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-
+  
   constructor(private _http: HttpClient) { }
 
   addUser(data: any): Observable<any>{
